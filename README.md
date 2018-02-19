@@ -19,7 +19,6 @@ First, the reference speed and the joystick is both at zero. At the first time u
 # Title
 ## Header
 
-<<<<<<< HEAD
 [speed example](http://google.com)
 
 ```C
@@ -30,17 +29,6 @@ printf("Something");
 1. Item1
 2. Item2
 
-=======
-![speed example](http://google.com)
-
-'''
-printf("Something");
-'''
-
-###List
-1. Item1
-2. Item2
->>>>>>> a71058363d783e1d9cf72331bd30fa1c31e7a035
   ..* Unordered
 
   **bold text**
