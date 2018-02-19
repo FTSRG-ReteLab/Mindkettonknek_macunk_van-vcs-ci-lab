@@ -7,7 +7,7 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
-	private Tachograph tachograph = new Tachograph();
+	public Tachograph tachograph = new Tachograph();
 	//A change
 	//B change
 
@@ -25,6 +25,11 @@ public class TrainControllerImpl implements TrainController {
 		}
 
 		enforceSpeedLimit();
+	}
+
+	@Override
+	public boolean isEmpty() {
+		return tachograph.table.isEmpty();
 	}
 
 	@Override
