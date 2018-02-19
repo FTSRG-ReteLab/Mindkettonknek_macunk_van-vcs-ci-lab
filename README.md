@@ -29,6 +29,4 @@ printf("Something");
 1. Item1
 2. Item2
 
-  ..* Unordered
-
   **bold text**
