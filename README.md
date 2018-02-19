@@ -15,3 +15,19 @@ Setting the reference speed of the train works in the following way. The user ca
 ![speed example](doc/speed_example.png)
 
 First, the reference speed and the joystick is both at zero. At the first time unit, the joystick is set to a positive value, thus the reference speed is also incremented. As the joystick remains at a positive value, the reference speed is incremented again. However, it reaches the speed limit so in the next step it is not incremented even though the joystick still has a positive value. Later, the joystick is set to a negative position for one time unit, making the reference speed to decrease as well.
+
+# Title
+## Header
+
+![speed example](http://google.com)
+
+'''
+printf("Something");
+'''
+
+###List
+1. Item1
+2. Item2
+  ..* Unordered
+
+  **bold text**
