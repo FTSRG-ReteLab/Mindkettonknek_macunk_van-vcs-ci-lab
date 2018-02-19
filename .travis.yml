@@ -1,3 +1,2 @@
 language: java
-gradle build
-./gradlew test
+jdk: oraclejdk8
