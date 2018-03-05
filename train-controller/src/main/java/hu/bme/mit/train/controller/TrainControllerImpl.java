@@ -54,6 +54,16 @@ public class TrainControllerImpl implements TrainController {
 	public void setJoystickPosition(int joystickPosition) {
 		this.step = joystickPosition;
 		tachograph.table.put(System.currentTimeMillis() , joystickPosition, referenceSpeed);
+		TimerTask timerTask = new TimerTask() {
+			@Override
+			public void run() {
+				followSpeed();
+			}
+		};
+		
+		Timer timer = new Timer("Idozito");
+		
+		timer.scheduleAtFixedRate(timerTask, 0, 500);
 	}
 
 }
