@@ -68,5 +68,5 @@ public class TrainControllerImpl implements TrainController {
 		Timer timer = new Timer("Timer");
 		timer.scheduleAtFixedRate(task, 0, 1000);
 	}
-	
+
 }
