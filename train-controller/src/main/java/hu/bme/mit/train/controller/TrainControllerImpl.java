@@ -68,12 +68,5 @@ public class TrainControllerImpl implements TrainController {
 		Timer timer = new Timer("Timer");
 		timer.scheduleAtFixedRate(task, 0, 1000);
 	}
-
-	public boolean getAlarmState() {
-
-	}
-
-	public void setAlarmState(boolean alarmState) {
-
-	}
+	
 }
